@@ -25,7 +25,8 @@ class Sample{
         }
     }
     /********************PROBLEM-2****************/
-
+//TC:0(m*n*p)
+        //SC:0(1)
     class Solution {
         public int[][] multiply(int[][] mat1, int[][] mat2) {
             if(mat1==null || mat2==null ||mat1.length==0 ||mat2.length==0){
